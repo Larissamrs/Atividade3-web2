@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
+  <tlib-version>1.0</tlib-version>
+  <short-name>definirtags</short-name>
+  <uri>com.hospital.tags</uri>
+ 
+  <tag>
+      <name>carregaIndicadoresExame</name>
+      <tag-class>com.hospital.controllers.tags.TagCarregaIndicadoresExame</tag-class>
+      <body-content>empty</body-content>
+  </tag>
+  
+  <tag>
+      <name>carregaPacientes</name>
+      <tag-class>com.hospital.controllers.tags.TagCarregaPacientes</tag-class>
+      <body-content>empty</body-content>
+  </tag>
+  
+    <tag>
+      <name>carregaMedicos</name>
+      <tag-class>com.hospital.controllers.tags.TagCarregaMedicos</tag-class>
+      <body-content>empty</body-content>
+    </tag>
+  
+  <tag>
+      <name>carregaMedicamentos</name>
+      <body-content>empty</body-content>
+      <tag-class>com.devcaotics.controllers.tags.TagCarregaMedicamentos</tag-class>
+  </tag>
+ 
+</taglib>
+
